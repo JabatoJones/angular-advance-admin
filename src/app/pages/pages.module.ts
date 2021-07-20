@@ -11,6 +11,7 @@ import { Grafica1Component } from './grafica1/grafica1.component';
 import { PagesComponent } from './pages.component';
 import { ProgressComponent } from './progress/progress.component';
 import { AppRoutingModule } from '../app-routing.module';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -18,13 +19,14 @@ import { AppRoutingModule } from '../app-routing.module';
     DashboardComponent,
     ProgressComponent,
     Grafica1Component,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
   ],
   imports: [
     CommonModule,
     SharedModule,
     AppRoutingModule,
-    FormsModule,    
+    FormsModule,
     ComponentsModule,
     ChartsModule
   ],
@@ -32,7 +34,8 @@ import { AppRoutingModule } from '../app-routing.module';
     DashboardComponent,
     ProgressComponent,
     Grafica1Component,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
   ]
 })
 export class PagesModule { }

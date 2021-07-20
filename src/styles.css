@@ -3,3 +3,6 @@
     animation-duration        : 0.5s;
     -webkit-animationZ        : 0.5s
 }
+#themecolors .selector {
+    cursor: pointer;
+}
